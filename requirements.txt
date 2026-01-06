@@ -1,0 +1,19 @@
+# Core numerical
+numpy>=1.23,<2.0
+
+# PyTorch (needed to load and export Whisper safetensors)
+torch>=2.0,<2.3
+
+# TensorFlow + TFLite
+tensorflow>=2.13,<2.16
+
+# Hugging Face Transformers (Whisper support)
+transformers>=4.36,<4.41
+safetensors>=0.4.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Optional but recommended (used internally by transformers / audio)
+scipy>=1.9
